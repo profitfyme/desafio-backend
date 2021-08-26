@@ -37,8 +37,8 @@ Definição
     {
         "id": "411594b5-c996-4756-a719-42342424d2sa",
         "percentage_amount": 10,
-        "start_date": "2019-07-16T03:00:00Z",
-        "end_date": "2019-07-17T02:59:59Z",
+        "start_date": "2019-07-16T17:00:00Z",
+        "end_date": "2019-07-17T20:59:59Z",
         "is_default": false
     }
 ```
@@ -64,7 +64,7 @@ Requisição: POST `/fees` 
 
 Exemplo de dados de entrada:
 
-```plain
+```json
 [
     {
         "percentage_amount": 10,
