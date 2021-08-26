@@ -47,8 +47,8 @@ Onde:
 
 *   `id` é um UUID v4;
 *   `percentage_amount` é o valor em percentual;
-*   `start_date` está em UTC o formato ISO-8601, representa a data inicial que a tarifa entrou em vigor, podendo ser nulo;
-*   `end_date` está em UTC no formato ISO-8601, representa a data limite data tarifa, podendo ser nulo;
+*   `start_date` está em UTC no formato ISO-8601 e representa o período inicial da tarifa, podendo ser nulo;
+*   `end_date` está em UTC no formato ISO-8601 e representa o período final da tarifa, podendo ser nulo;
 *   `is_default` define se é uma tarifa padrão ou não;
 
   
@@ -64,7 +64,7 @@ Requisição: POST `/fees` 
 
 Exemplo de dados de entrada:
 
-```json
+```plain
 [
     {
         "percentage_amount": 10,
@@ -108,6 +108,9 @@ Exemplo de retorno:
 ]
 ```
 
+
+Link com o JSON de entrada: 
+https://s3.us-west-2.amazonaws.com/desafio-profitfy.me/teste.json
   
 
 ### Critérios para inserir uma Tarifa:
@@ -115,7 +118,8 @@ Exemplo de retorno:
 *   Só pode ter **uma** tarifa padrão;
 *   Timezone é America/Sao\_Paulo;
 *   Não pode ter mais de uma tarifa no mesmo período;
-*   Transformar a data de início para data no começo do dia;
+*   A hora do `start_date` deve ser transformado para o início do dia (ex. `"2019-07-17T03:00:00Z"`).
+*   A hora do `end_date` deve ser transformado para o início do dia (ex. `"2019-07-18T02:59:59Z"`).
 *   Transformar a data de fim para data no final do dia;
 
   
