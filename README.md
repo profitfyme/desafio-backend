@@ -22,7 +22,7 @@ Definição
 *   Há dois tipos de tarifas, a tarifa padrão, que não apresenta data de início e nem data de fim, que representa a tarifa atual da plataforma de venda.
 *   Um exemplo de tarifa seria:
 
-```plain
+```json
     {
         "id": "411594b5-c996-4756-a719-408dd4517161",
         "percentage_amount": 10,
@@ -64,7 +64,7 @@ Requisição: POST `/fees` 
 
 Exemplo de dados de entrada:
 
-```plain
+```json
 [
     {
         "percentage_amount": 10,
