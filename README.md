@@ -156,11 +156,9 @@ Entre os critérios de avaliação estão:
 Como devo entregar o desafio?
 -----------------------------
 
-*   Dê um fork no projeto;
-*   Crie uma branch a partir da branch master deste repositório;
-*   Implemente o desafio de código;
-*   Faça um push de sua branch com o desafio implementado;
-*   Crie um pull request para branch master;
+*   Clone o repositório (não forke);
+*   Suba o projeto para seu repositório
+*   Nos envie o link do repositório.
 *   Envie um e-mail para [victorlevi@profitfy.me](mailto:victorlevi@profitfy.me), com o assunto '\[Teste Dev\] Desafio';
 
   
