@@ -118,8 +118,8 @@ https://s3.us-west-2.amazonaws.com/desafio-profitfy.me/teste.json
 *   Só pode ter **uma** tarifa padrão;
 *   Timezone é America/Sao\_Paulo;
 *   Não pode ter mais de uma tarifa no mesmo período;
-*   A hora do `start_date` deve ser transformado para o início do dia (ex. `"2019-07-17T03:00:00Z"`).
-*   A hora do `end_date` deve ser transformado para o fim do dia (ex. `"2019-07-18T02:59:59Z"`).
+*   A hora do `start_date` deve ser transformado para o primeiro horário dessa data (ex. `"2019-07-17T03:00:00Z"`).
+*   A hora do `end_date` deve ser transformado para o último horário dessa data (ex. `"2019-07-18T02:59:59Z"`).
 *   Transformar a data de fim para data no final do dia;
 
   
