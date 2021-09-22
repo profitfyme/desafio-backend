@@ -37,8 +37,8 @@ Definição
     {
         "id": "411594b5-c996-4756-a719-42342424d2sa",
         "percentage_amount": 10,
-        "start_date": "2019-07-16T17:00:00Z",
-        "end_date": "2019-07-17T20:59:59Z",
+        "start_date": "2019-07-16T03:00:00Z",
+        "end_date": "2019-07-17T02:59:59Z",
         "is_default": false
     }
 ```
@@ -72,14 +72,14 @@ Exemplo de dados de entrada:
     },
     {
         "percentage_amount": 15,
-        "start_date": "2019-07-17T15:59:59Z",
-        "end_date": "2019-07-17T15:59:59Z",
+        "start_date": "2019-07-17",
+        "end_date": "2019-07-17",
         "is_default": false
     },
     {
         "percentage_amount": 18,
-        "start_date": "2019-07-17T08:32:00Z",
-        "end_date": "2019-07-17T08:32:00Z",
+        "start_date": "2019-07-17",
+        "end_date": "2019-07-17",
         "is_default": false
     }
 ]
