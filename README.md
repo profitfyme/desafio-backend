@@ -135,8 +135,6 @@ Diferenciais
 ------------
 
 *   Testes unitários e integrados;
-*   Clean architecture;
-*   Docker;
 *   ORM;
 
   
