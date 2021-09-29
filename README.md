@@ -120,6 +120,7 @@ https://s3.us-west-2.amazonaws.com/desafio-profitfy.me/new-teste.json
 *   Não pode ter mais de uma tarifa no mesmo período, por exemplo, se há um fee com início em `"2019-07-17T03:00:00Z"` e fim em  `"2019-07-25T02:59:59Z"`, não poderá ser inserido um fee com início em `"2019-07-18T03:00:00Z"` e fim em `"2019-07-19T02:59:59Z"`;
 *   A hora do `start_date` deve ser transformado para o primeiro horário dessa data (ex. `"2019-07-17T03:00:00Z"`).
 *   A hora do `end_date` deve ser transformado para o último horário dessa data (ex. `"2019-07-18T02:59:59Z"`).
+*   Se uma tarifa não é válida, em vez de lançar um erro, deve-se não inseri-la e prosseguir para próxima tarifa do array de entrada.
 
 
 Requisitos
