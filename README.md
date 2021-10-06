@@ -133,7 +133,7 @@ Exemplo de retorno:
 - O cálculo do total gasto é feito pela soma do <em>amount</em> dos pedidos de um cliente;
 ## Dados de entrada
 Link com o JSON de entrada:
-https://s3.us-west-2.amazonaws.com/desafio-profitfy.me/new-teste.json
+https://s3.us-west-2.amazonaws.com/desafio-profitfy.me/new-new-teste.json
 ## Requisitos
 - TypeScript;
 - Node.js;
