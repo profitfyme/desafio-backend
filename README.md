@@ -150,7 +150,7 @@ https://s3.us-west-2.amazonaws.com/desafio-profitfy.me/new-new-teste.json
 - Clone o repositório (não forke);
 - Suba o projeto para seu repositório
 - Nos envie o link do repositório.
-- Envie um e-mail para [desafio@profitfy.me](mailto:desafio@profitfy.me), com o assunto '\[Teste Dev\] Desafio';
+- Envie um e-mail para [victorlevi@profitfy.me](mailto:victorlevi@profitfy.me), com o assunto '\[Teste Dev\] Desafio';
 ## Dúvida
-Se tiver qualquer dúvida sobre esse teste, envie um e-mail com o título '\[Teste Dev\] Dúvida' para [desafio@profitfy.me](mailto:desafio@profitfy.me)
+Se tiver qualquer dúvida sobre esse teste, envie um e-mail com o título '\[Teste Dev\] Dúvida' para [victorlevi@profitfy.me](mailto:victorlevi@profitfy.me)
 Good Luck! 🍀
